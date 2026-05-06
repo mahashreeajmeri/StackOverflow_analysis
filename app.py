@@ -15,16 +15,15 @@ st.set_page_config(
 )
 
 CHATGPT_LAUNCH = pd.Timestamp('2022-11-01')
-DATA_DIR       = "StackOverflow Data" 
 
 # Data Loading with Caching
 @st.cache_data
 def load_data():
     '''load and clean data'''
-    questions = pd.read_csv(f"{DATA_DIR}/question_volume.csv")
-    users = pd.read_csv(f"{DATA_DIR}/user_registration.csv")
-    votes = pd.read_csv(f"{DATA_DIR}/votes_over_time.csv")
-    comments = pd.read_csv(f"{DATA_DIR}/comments.csv")
+    questions = pd.read_csv("data/question_volume.csv")
+    users = pd.read_csv("data/user_registration.csv")
+    votes = pd.read_csv("data/votes_over_time.csv")
+    comments = pd.read_csv("data/comments.csv")
 
     # add date column
     for df in [questions, users, votes, comments]:
