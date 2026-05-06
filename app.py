@@ -164,12 +164,10 @@ with st.sidebar:
         value = 3,
         help = "Higher = smoother line. Lower = more detail."
     )
-    # st.divider()
-    # st.caption("Data: Stack Overflow 2019– Apr 2026")
-    # st.caption("ChatGPT launched: November 2022")
+    st.divider()
     st.caption("*Analysis: Python · pandas · matplotlib · plotly · vaderSentiment · prophet*")
+    
 # PAGE TITLE
-
 st.title("Impact of ChatGPT on Stack Overflow")
 st.markdown("*How ChatGPT reshaped a tech community: an analysis of user activity and sentiment*")
 st.divider()
@@ -236,14 +234,8 @@ if section == "Overview":
     #   st.warning() --> yellow box (caution or limitation)
     #   st.error() --> red box (error or critical warning)
 
-    # st.info("""
-    # **Stack Overflow appears to be used differently following the launch of ChatGPT.**
-    # The platform is shifting from a space primarily for asking questions to one focused on discussion, collaboration, and brainstorming.
-    # """)
-
     col_a, col_b, col_c = st.columns(3)
     col_a.success("New user registrations **increased** after ChatGPT launch")
-    # col_b.warning("Question volume **declining** below forecast")
     col_b.info("Community sentiment remains **stable** overall")
     col_c.warning("Question volume **declining** below forecast")
 
@@ -280,11 +272,9 @@ elif section == "Activity Trends":
     plt.tight_layout()
 
     st.pyplot(fig)   
-    # st.pyplot(fig, use_container_width=False)
     plt.close()      
 
     st.caption("Question volume shows a decreasing trend, with a sharper decline observed after the ChatGPT launch.")
-    # st.divider()
 
     # new user plot as left column and voting plot as right column
     st.subheader("New Users and Voting Behaviour")
