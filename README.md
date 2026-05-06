@@ -15,7 +15,6 @@ Data source: [Stack Exchange Data Explorer](https://data.stackexchange.com/stack
 ## Libraries Used
 - pandas
 - matplotlib
-- seaborn
 - plotly
 - vaderSentiment
 - prophet
