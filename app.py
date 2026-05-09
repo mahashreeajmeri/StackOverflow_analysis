@@ -6,7 +6,7 @@ import plotly.express as px
 import streamlit as st
 
 CHATGPT_LAUNCH = pd.Timestamp("2022-11-01")
-DATA_DIR = Path("StackOverflow Data")
+DATA_DIR = Path("data")
 PROCESSED_DIR = DATA_DIR / "processed"
 
 
