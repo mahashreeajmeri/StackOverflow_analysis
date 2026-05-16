@@ -346,9 +346,9 @@ elif section == "Forecast":
     st.header("Prophet Forecasting — ML Predictive Modelling")
     st.write(
         """
-        Prophet models were trained once in `prepare_data.py` on pre-ChatGPT
-        data and saved as CSV files. This page only loads the finished forecast,
-        which makes the Streamlit app much faster.
+        A Prophet model is trained on pre-ChatGPT data and used to forecast forward.
+    The gap between the forecast (expected trend without ChatGPT) and the
+    actual values provides an estimate of how patterns changed after its launch.
         """
     )
 
