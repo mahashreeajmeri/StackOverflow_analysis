@@ -117,7 +117,7 @@ with st.sidebar:
     )
 
     st.divider()
-    st.write("Python · pandas · matplotlib · plotly · VADER · Prophet")
+    st.caption("Python · pandas · matplotlib · plotly · VADER · Prophet")
 
 
 st.title("Impact of ChatGPT on Stack Overflow")
