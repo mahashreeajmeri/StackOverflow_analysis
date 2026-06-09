@@ -163,11 +163,11 @@ if section == "Overview":
     col_b.info("Community sentiment remains **stable** overall")
     col_c.warning("Question volume **declining** below forecast")
 
-    st.info(
-        """
-        Stack Overflow appears to be used differently following the launch of ChatGPT, reflecting a shift in user behavior rather than sentiment. Users seem to be redirecting simple, routine questions to AI tools for faster responses, while more complex discussions remain on the platform. This suggests a change in question distribution rather than a decline in user sentiment toward Stack Overflow.
-        """
-    )
+    # st.info(
+    #     """
+    #     Stack Overflow appears to be used differently following the launch of ChatGPT, reflecting a shift in user behavior rather than sentiment. Users seem to be redirecting simple, routine questions to AI tools for faster responses, while more complex discussions remain on the platform. This suggests a change in question distribution rather than a decline in user sentiment toward Stack Overflow.
+    #     """
+    # )
 
 
 elif section == "Activity Trends":
@@ -493,9 +493,8 @@ elif section == "Conclusion":
     st.subheader("Final Takeaway")
     st.info(
         """
-        **Stack Overflow is evolving.** With AI tools such as ChatGPT becoming
-        more popular, users appear to be shifting quick, routine questions to AI
-        while leaving more complex questions and community-based support to the
-        platform. Community sentiment has remained stable throughout this transition.
+        **Stack Overflow usage patterns appear to be shifting** following the popularization of AI tools such as ChatGPT. 
+        Users seem to be redirecting routine questions to AI for quick answers while continuing to use the platform for more complex, discussion-based problems. 
+        This suggests a change in question distribution rather than a decline in user sentiment toward Stack Overflow.
         """
     )
