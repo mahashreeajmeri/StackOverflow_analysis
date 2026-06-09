@@ -137,10 +137,9 @@ if section == "Overview":
     st.header("Project Overview")
     st.write(
         """
-        This dashboard explores how activity on Stack Overflow has changed after
-        the launch of ChatGPT in November 2022. It focuses on four key areas:
-        **question volume**, **new user registrations**, **community voting**,
-        and **comment sentiment**.
+        Since the launch of ChatGPT in November 2022, the way users seek solutions to tech-related problems online appears to be evolving. 
+        This dashboard examines how Stack Overflow activity has changed in response, 
+        focusing on **question volume**, **new user registrations**, **community voting**, and **comment sentiment**.
 
         The analysis is based on data from 2019 to April 2026.
 
