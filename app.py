@@ -118,7 +118,16 @@ with st.sidebar:
 
     st.divider()
     st.caption("Python · pandas · matplotlib · plotly · VADER · Prophet")
-
+    st.markdown(
+    """
+    <div style="font-size: 0.85rem; line-height: 1.4;">
+        <b>Mahashree Ajmeri</b><br>
+        <a href="https://linkedin.com/in/mahashree-ajmeri" target="_blank">LinkedIn</a> · 
+        <a href="https://github.com/mahashreeajmeri" target="_blank">GitHub</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 st.title("Impact of ChatGPT on Stack Overflow")
 st.markdown("*How ChatGPT reshaped a tech community: an analysis of user activity and sentiment*")
