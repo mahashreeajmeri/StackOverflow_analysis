@@ -165,9 +165,7 @@ if section == "Overview":
 
     st.info(
         """
-        Stack Overflow appears to be used differently following the launch of
-        ChatGPT. This may indicate a shift away from simple, common questions
-        rather than a reduction in engagement.
+        Stack Overflow appears to be used differently following the launch of ChatGPT, reflecting a shift in user behavior rather than sentiment. Users seem to be redirecting simple, routine questions to AI tools for faster responses, while more complex discussions remain on the platform. This suggests a change in question distribution rather than a decline in user sentiment toward Stack Overflow.
         """
     )
 
