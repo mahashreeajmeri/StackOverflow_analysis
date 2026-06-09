@@ -118,7 +118,7 @@ with st.sidebar:
 
     st.divider()
     
-    st.caption("Python · pandas · matplotlib · plotly · VADER · Prophet")
+    st.markdown("Python · pandas · matplotlib · plotly · VADER · Prophet")
     st.divider()
     
     st.markdown(
