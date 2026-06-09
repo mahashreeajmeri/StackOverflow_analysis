@@ -115,10 +115,9 @@ with st.sidebar:
         value=3,
         help="Higher = smoother line. Lower = more detail.",
     )
-
     st.divider()
     
-    st.markdown("Python · pandas · matplotlib · plotly · VADER · Prophet")
+    st.caption("Python · pandas · matplotlib · plotly · VADER · Prophet")
     st.divider()
     
     st.markdown(
