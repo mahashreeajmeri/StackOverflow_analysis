@@ -117,10 +117,13 @@ with st.sidebar:
     )
 
     st.divider()
+    
     st.caption("Python · pandas · matplotlib · plotly · VADER · Prophet")
+    st.divider()
+    
     st.markdown(
     """
-    <div style="font-size: 0.85rem; line-height: 1.4;">
+    <div style="font-size: 0.90rem; line-height: 1.4;">
         <b>Mahashree Ajmeri</b><br>
         <a href="https://linkedin.com/in/mahashree-ajmeri" target="_blank">LinkedIn</a> · 
         <a href="https://github.com/mahashreeajmeri" target="_blank">GitHub</a>
