@@ -1,7 +1,7 @@
 # Impact of ChatGPT on Stack Overflow
 How ChatGPT reshaped a tech community: an analysis of user activity and sentiment
 
-**Website Dashboard link:**[StackOverflow_analysis](https://stackoverflowanalysis1-mahashreeajmeri.streamlit.app/)
+**Website Dashboard link:** [StackOverflow_analysis](https://stackoverflowanalysis1-mahashreeajmeri.streamlit.app/)
 
 ## Project Overview
 Since the launch of ChatGPT in November 2022, the way users seek solutions to tech-related problems online appears to be evolving. This dashboard examines how Stack Overflow activity has changed in response, focusing on four key areas: 
