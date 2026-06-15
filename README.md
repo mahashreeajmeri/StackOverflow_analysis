@@ -2,7 +2,7 @@
 How ChatGPT reshaped a tech community: an analysis of user activity and sentiment
 
 ## Project Overview
-This dashboard explores how activity on Stack Overflow has changed after the launch of ChatGPT in November 2022. It focuses on four key areas: 
+Since the launch of ChatGPT in November 2022, the way users seek solutions to tech-related problems online appears to be evolving. This dashboard examines how Stack Overflow activity has changed in response, focusing on four key areas: 
 - question volume: monthly question counts
 - new user registrations: monthly new user registrations
 - community voting: monthly upvote and downvote counts
@@ -39,4 +39,4 @@ Data source: [Stack Exchange Data Explorer](https://data.stackexchange.com/stack
 
 ## **Final Takeaway**
 
-Stack Overflow is evolving. With AI tools such as ChatGPT becoming more popularized, users appear to be shifting asking quick, routine questions to AI, while leaving more complex questions and community-based support to the platform. Community sentiment has remained stable throughout this transition, suggesting users are not frustrated with the platform, but are instead changing how they interact with it and where they seek different types of answers.
+Stack Overflow usage patterns appear to be shifting following the popularization of AI tools such as ChatGPT. Users seem to be redirecting routine questions to AI for quick answers while continuing to use the platform for more complex, discussion-based problems. This suggests a change in question distribution rather than a decline in user sentiment toward Stack Overflow.
